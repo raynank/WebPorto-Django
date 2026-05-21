@@ -11,6 +11,9 @@ RUN pip install -r requirements.txt
 # Salin seluruh isi project ke dalam container
 COPY . /app
 
+# Masuk ke direktori proyek Django (webporto) di dalam container
+WORKDIR /app/webporto
+
 # Jalankan collectstatic untuk mengumpulkan static files
 RUN python manage.py collectstatic --noinput
 

@@ -24,14 +24,8 @@ db.sqlite3
 *.sqlite3
 
 # Static files hasil collectstatic (biarkan container mem-build ulang ini)
-staticfiles/
+webporto/staticfiles/
 
 # Dokumen dan foto pribadi (sesuai .gitignore)
-static/documents/
-static/images/foto.jpg
-
-# Mengabaikan folder dokumentasi rencana internal
-AI_Plans/
-../AI_Plans/
-
-
+webporto/static/documents/
+webporto/static/images/foto.jpg
