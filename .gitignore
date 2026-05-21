@@ -165,3 +165,6 @@ webporto/static/documents/
 # Sembunyikan foto profil pribadi beresolusi tinggi / sensitif dari Git
 webporto/static/images/foto.jpg
 # (Bila file aslinya di-hide, gunakan link eksternal Google Drive/Cloudinary di index.html untuk versi web public Anda)
+
+# Sembunyikan hasil build static
+staticfiles/

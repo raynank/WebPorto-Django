@@ -25,6 +25,7 @@ db.sqlite3
 
 # Static files hasil collectstatic (biarkan container mem-build ulang ini)
 webporto/staticfiles/
+webporto/dist/
 
 # Dokumen dan foto pribadi (sesuai .gitignore)
 webporto/static/documents/
