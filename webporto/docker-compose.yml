@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    container_name: webporto-raynan
+    command: gunicorn porto.wsgi:application --bind 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    # Untuk Local Development
+    # volumes:
+    #   - .:/app
+    env_file:
+      - .env

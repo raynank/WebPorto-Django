@@ -1,0 +1,37 @@
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Django Database (kita tidak ingin mengirim database lokal ke dalam container production)
+db.sqlite3
+*.sqlite3
+
+# Static files hasil collectstatic (biarkan container mem-build ulang ini)
+staticfiles/
+
+# Dokumen dan foto pribadi (sesuai .gitignore)
+static/documents/
+static/images/foto.jpg
+
+# Mengabaikan folder dokumentasi rencana internal
+AI_Plans/
+../AI_Plans/
+
+
